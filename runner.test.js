@@ -6,7 +6,7 @@ describe.skip('index: Integration test', () => {
   it('should upload data dir', async () => {
     process.env['INPUT_PATH'] = './data';
     process.env['INPUT_SWARMURL'] = 'https://swarm-gateways.net';
-    process.env['INPUT_DEFAULTFILE'] = '/index.html';
+    process.env['INPUT_DEFAULTFILE'] = 'index.html';
     process.env['INPUT_VERBOSE'] = true;
     await run();
   });

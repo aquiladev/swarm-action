@@ -1,0 +1,27 @@
+name: 'Upload to Swarm'
+description: 'Upload to Ethereum Swarm'
+branding:
+  icon: 'upload-cloud'
+  color: 'orange'
+inputs:
+  path:
+    description: 'directory path to upload'
+    required: true
+  swarmUrl:
+    description: 'Swarm node url'
+    required: false
+    default: 'https://swarm-gateways.net'
+  defaultPath:
+    description: 'Default path for Manifest'
+    required: false
+    default: 'index.html'
+  verbose:
+    description: 'Level of verbosity'
+    required: false
+    default: false
+outputs:
+  hash:
+    description: 'Swarm hash'
+runs:
+  using: 'node12'
+  main: 'index.js'
