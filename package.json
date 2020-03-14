@@ -1,0 +1,41 @@
+{
+  "name": "swarm-action",
+  "version": "0.0.1-alpha",
+  "description": "Ethereum Swarm upload action",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint index.js && jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aquiladev/swarm-action.git"
+  },
+  "keywords": [
+    "Ethereum",
+    "Swarm",
+    "GitHub",
+    "action",
+    "upload",
+    "deploy",
+    "delivery"
+  ],
+  "author": "Sergii Bomko <aquila.ua@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aquiladev/swarm-action/issues"
+  },
+  "homepage": "https://github.com/aquiladev/swarm-action#readme",
+  "dependencies": {
+    "@actions/core": "1.2.3",
+    "@actions/github": "2.1.1",
+    "@erebos/bzz-fs": "0.13.0",
+    "@erebos/bzz-node": "0.13.0"
+  },
+  "devDependencies": {
+    "eslint": "6.8.0",
+    "jest": "25.1.0"
+  },
+  "eslintIgnore": [
+    "*.test.js"
+  ]
+}
