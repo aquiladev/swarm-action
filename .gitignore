@@ -2,3 +2,5 @@
 logs
 *.log
 npm-debug.log*
+
+index.html
