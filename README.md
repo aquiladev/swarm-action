@@ -24,3 +24,5 @@ uses: aquiladev/swarm-action@v1
 with:
   path: ./
 ```
+
+Take a look [DApps Delivery Guide](https://dapps-delivery-guide.readthedocs.io/)
