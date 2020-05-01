@@ -4,7 +4,9 @@
   "description": "Ethereum Swarm upload action",
   "main": "index.js",
   "scripts": {
-    "test": "eslint index.js && jest"
+    "test": "npm run lint && jest",
+    "lint": "eslint --max-warnings 0 **/*.js",
+    "prune-prod": "npm prune --production"
   },
   "repository": {
     "type": "git",
