@@ -6,7 +6,8 @@
   "scripts": {
     "test": "npm run lint && jest",
     "lint": "eslint --max-warnings 0 **/*.js",
-    "prune-prod": "npm prune --production"
+    "prune-prod": "npm prune --production",
+    "release": "release-it"
   },
   "repository": {
     "type": "git",
@@ -35,7 +36,8 @@
   },
   "devDependencies": {
     "eslint": "6.8.0",
-    "jest": "25.1.0"
+    "jest": "25.1.0",
+    "release-it": "13.5.7"
   },
   "eslintIgnore": [
     "*.test.js"
